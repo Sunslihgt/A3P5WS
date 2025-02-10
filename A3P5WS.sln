@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A3P5WSEx1Explorer", "A3P5WS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTaskManager", "AvaloniaTaskManager\AvaloniaTaskManager.csproj", "{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFTaskManager", "WPFTaskManager\WPFTaskManager.csproj", "{09B73199-6E29-4E89-BA18-67270DDFE885}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B73199-6E29-4E89-BA18-67270DDFE885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B73199-6E29-4E89-BA18-67270DDFE885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B73199-6E29-4E89-BA18-67270DDFE885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B73199-6E29-4E89-BA18-67270DDFE885}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

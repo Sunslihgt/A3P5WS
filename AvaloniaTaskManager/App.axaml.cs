@@ -5,6 +5,7 @@ using Avalonia.Data.Core.Plugins;
 using Avalonia.Markup.Xaml;
 using AvaloniaTaskManager.ViewModels;
 using AvaloniaTaskManager.Views;
+using System;
 using System.Linq;
 
 namespace AvaloniaTaskManager

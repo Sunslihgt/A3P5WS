@@ -7,7 +7,7 @@
         x:Class="AvaloniaTaskManager.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         Icon="/Assets/avalonia-logo.ico"
-        Title="Ask Maneger v2">
+        Title="Task Manager v2">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
@@ -19,7 +19,7 @@
           x:Name="Root">
 		<!--  This is our title text block. We use Style.Classes to style it accordingly  -->
 		<TextBlock Classes="h1" Text="Processes" />
-		
+
 		<ScrollViewer Grid.Row="1">
 			<!-- It needs to be placed inside a ScrollViewer because other than a ListBox it has not its own -->
 			<ItemsControl ItemsSource="{Binding Tasks}">
@@ -27,9 +27,11 @@
 					<!--  The ItemTemplate defines how each item should be represented  -->
 					<!--  Our Item will be represented by a CheckBox and a Delete-Button  -->
 					<DataTemplate DataType="vm:TaskItemViewModel">
-						<Grid ColumnDefinitions="*, Auto">
-							<TextBlock Text="{Binding Name}" />
-						</Grid>
+						<StackPanel Orientation="Horizontal" Height="22" Margin="0">
+							<TextBlock Text="{Binding Pid}" Height="16" Margin="0 5"/>
+							<TextBlock Text=" " Height="16" />
+							<TextBlock Text="{Binding Name}" Height="16" Margin="0 5"/>
+						</StackPanel>
 					</DataTemplate>
 				</ItemsControl.ItemTemplate>
 			</ItemsControl>

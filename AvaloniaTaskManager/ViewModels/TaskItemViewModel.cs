@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace AvaloniaTaskManager.ViewModels
 {
-    internal partial class TaskItemViewModel : ViewModelBase
+    public partial class TaskItemViewModel : ViewModelBase
     {
         [ObservableProperty]
         private string? _name;
