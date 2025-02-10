@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "A3P5WSEx1Explorer", "A3P5WSEx1Explorer\A3P5WSEx1Explorer.csproj", "{B756F918-550A-4912-8BE5-995108C7136C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaloniaTaskManager", "AvaloniaTaskManager\AvaloniaTaskManager.csproj", "{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B756F918-550A-4912-8BE5-995108C7136C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B756F918-550A-4912-8BE5-995108C7136C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B756F918-550A-4912-8BE5-995108C7136C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B756F918-550A-4912-8BE5-995108C7136C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF9CEA91-C9D3-49E9-9A6A-196FEA4841C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
